@@ -13,18 +13,58 @@
                 Password
                 <input type="password" name="password" size="15" maxlength="16" />
             </p>
-            <p>How can we improve our services?</p>
-            <textarea name="comments" cols="20" rows="4" placeholder="Enter your comments"> </textarea>
-            <p>Your favorite music genre:
+            How can we improve our services?
+            <br />
+            <textarea name="comments" cols="20" rows="4" placeholder="Enter your comments"></textarea>
+            <p>
+                Your favorite music genre:
                 <br />
-                <input type="radio" name="genre" value="rock">
+                <input type="radio" name="genre" value="rock" />
                 Rock
-                <input type="radio" name="genre" value="pop">
+                <input type="radio" name="genre" value="pop" />
                 Pop
-                <input type="radio" name="genre" value="jazz">
+                <input type="radio" name="genre" value="jazz" />
                 Jazz
             </p>
-            
+            <p>
+                Music services you use:
+                <br />
+                <input type="checkbox" name="service" value="iTunes" />
+                iTunes
+                <input type="checkbox" name="service" value="Last.fm" />
+                Last.fm
+                <input type="checkbox" name="service" value="Spotify" />
+                Spotify
+            </p>
+            <p>
+                What decive do you listen to music on the most?<br />
+                <select name="devices">
+                    <option value="iPod" selected="selected">iPod</option>
+
+                    <option value="radio">Radio</option>
+
+                    <option value="PC">Computer</option>
+                </select>
+            </p>
+
+            <p>
+                Upload your file in MP3 format:
+                <input type="file" name="user-song" />
+                <input type="submit" value="upload" />
+            </p>
+            <p>
+                Last day of classes:
+                <br />
+                <input type="date" name="lastDay" />
+                <input type="submit" value="submit" />
+            </p>
+            <p>
+                Subscribe to our email list:
+
+                <input type="text" name="email" />
+
+                <input type="submit" value="Subscribe" />
+            </p>
         </form>
     </body>
 </html>
